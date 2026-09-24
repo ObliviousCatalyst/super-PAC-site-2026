@@ -1,3 +1,9 @@
+@font-face {
+	font-family: "US-Veteran", display;
+	src: url(./fonts/UsVeteran.otf) format("opentype");
+	font-weight: 400;
+}
+
 html, body {
 	min-width: 100%;
 	min-height: 100%;
@@ -12,6 +18,7 @@ html, body {
 
 .title {
 	align-self: center;
+	font-family: "US-Veteran", display, 'Courier New', Courier, monospace;
 }
 
 .containing-div {
