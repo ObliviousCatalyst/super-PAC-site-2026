@@ -39,3 +39,7 @@ p, a, b, h1, h2, h3, h4, h5, h6, pre {
 	background-attachment: fixed;
 	background-position: center center;
 }
+
+.buffer-div {
+	height: 40vh;
+}
