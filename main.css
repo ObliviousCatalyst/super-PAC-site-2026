@@ -1,7 +1,24 @@
 @font-face {
-	font-family: "US-Veteran", display;
+	font-family: "US-Veteran";
 	src: url(./fonts/UsVeteran.otf) format("opentype");
-	font-weight: 400;
+	font-weight: 100;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "fira-code", fira, monospace;
+	src: url(./fonts/FiraCode-Regular.ttf);
+}
+
+@font-face {
+	font-family: "special-elite";
+	src: url(./fonts/SpecialElite-Regular.ttf);
+}
+
+:root {
+	--blood-red: #990000;
+	--deep-blue: #000099;
+	--text-grad: linear-gradient(var(--deep-blue),var(--blood-red));
 }
 
 html, body {
@@ -18,7 +35,8 @@ html, body {
 
 .title {
 	align-self: center;
-	font-family: "US-Veteran", display, 'Courier New', Courier, monospace;
+	font-family: "US-Veteran", "fira-code", 'Courier New', Courier, monospace;
+	font-size: 500%;
 }
 
 .containing-div {
@@ -28,20 +46,20 @@ html, body {
 
 p, a, b, h1, h2, h3, h4, h5, h6, pre {
 	color: transparent;
-	background-image: linear-gradient(#000099,#990000);
+	background-image: var(--text-grad);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
 	background-clip: text;
 	text-wrap: wrap;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: "special-elite",'Courier New', Courier, monospace;
 	font-weight: bold;
 }
 
 .std-img {
 	width: 98%;
 	padding: 1vh;
-	background-image: linear-gradient(#000099,#990000);
+	background-image: var(--text-grad);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
@@ -49,4 +67,13 @@ p, a, b, h1, h2, h3, h4, h5, h6, pre {
 
 .buffer-div {
 	height: 40vh;
+}
+
+.svg {
+	height: 60vh;
+}
+
+.svg-path {
+	color: var(--blood-red);
+	background-image: var(--text-grad);
 }
