@@ -46,7 +46,7 @@ html, body {
 	margin-right: 20%;
 }
 
-p, a, b, h1, h2, h3, h4, h5, h6, pre {
+p, a, b, h1, h2, h3, h4, h5, h6, pre, li , li::marker {
 	color: transparent;
 	background-image: var(--text-grad);
 	background-repeat: no-repeat;
