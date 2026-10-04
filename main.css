@@ -19,6 +19,7 @@
 	--blood-red: #990000;
 	--deep-blue: #000099;
 	--text-grad: linear-gradient(var(--deep-blue),var(--blood-red));
+	--std-filter: saturate(120%);
 }
 
 html, body {
@@ -55,6 +56,11 @@ p, a, b, h1, h2, h3, h4, h5, h6, pre {
 	text-wrap: wrap;
 	font-family: "special-elite",'Courier New', Courier, monospace;
 	font-weight: bold;
+	filter: var(--std-filter);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	filter: saturate(200%);
 }
 
 button {
@@ -66,6 +72,7 @@ button {
 	color: white;
 	font-family: 'Courier New', Courier, monospace;
 	border-color: transparent;
+	filter: var(--std-filter);
 }
 
 a {
@@ -86,6 +93,7 @@ a {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
+	filter: var(--std-filter);
 }
 
 .buffer-div {
