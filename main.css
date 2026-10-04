@@ -86,7 +86,7 @@ a {
 	text-decoration: underline;
 }
 
-.std-img {
+.std-img, .std-vid {
 	width: 98%;
 	padding: 1vh;
 	background-image: var(--text-grad);
