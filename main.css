@@ -99,6 +99,7 @@ a {
 
 .indent {
 	padding-left: 8vh;
+	filter: none;
 }
 
 .buffer-div {
