@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Special+Elite&display=swap');
+
 @font-face {
 	font-family: "US-Veteran";
 	src: url(./fonts/UsVeteran.otf) format("opentype");
@@ -87,7 +89,7 @@ a {
 	text-decoration: underline;
 }
 
-.std-img, .std-vid {
+.std-img, .std-vid, .border-div {
 	width: 98%;
 	padding: 1vh;
 	background-image: var(--text-grad);
@@ -96,6 +98,19 @@ a {
 	background-position: center center;
 	filter: var(--std-filter);
 }
+
+.kv-grid {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	background-color: black;
+	background-image: none;
+	padding: 2%;
+}
+
+/* .kv-grid > p {
+	background-color: black;
+	background-image: none;
+} */
 
 .indent {
 	padding-left: 8vh;
@@ -113,4 +128,8 @@ a {
 .svg-path {
 	color: var(--blood-red);
 	background-image: var(--text-grad);
+}
+
+#pie-chart {
+	width: 100%;
 }
