@@ -119,6 +119,11 @@ a {
 	height: 2vh;
 }
 
+.nav-links {
+	display: flex;
+	flex-direction: column;
+}
+
 .svg {
 	height: 100vh;
 }
