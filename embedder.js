@@ -23,4 +23,4 @@ export async function sleep (millis = 3000) {
 	return new Promise(resolve => setTimeout(resolve,millis))
 }
 
-sleep(10_000).then(() => embedNav())
+embedNav()
