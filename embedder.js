@@ -6,6 +6,6 @@ const htmlText = await res.text()
 console.log("c3")
 for (let pt = 0; pt < targets.length; pt++) {
 	console.log(`c3.${pt}`)
-	targets[pt].innerHTML = htmlText
+	// targets[pt].innerHTML = htmlText
 }
 console.log("c4")
