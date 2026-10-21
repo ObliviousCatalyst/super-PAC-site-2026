@@ -11,6 +11,9 @@ export async function embedNav () {
 		console.log(`c3.${pt}`)
 		console.log(targets[pt])
 		targets[pt].innerHTML = htmlText
+		if (pt > 255) {
+			break
+		}
 	}
 	console.log("c4")
 
