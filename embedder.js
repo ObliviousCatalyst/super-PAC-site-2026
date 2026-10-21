@@ -1,4 +1,4 @@
-async function embedNav () {
+export async function embedNav () {
 	const targets = document.getElementsByClassName("nav")
 	console.log("c1")
 	const res = await fetch("/super-PAC-site-2026/nav.html")
@@ -16,4 +16,8 @@ async function embedNav () {
 
 }
 
-embedNav()
+async function sleep (millis = 3000) {
+	return new Promise(resolve => setTimeout(resolve,millis))
+}
+
+sleep(10_000).then(() => embedNav())
