@@ -8,6 +8,6 @@ console.log(targets.length)
 console.log(targets)
 for (let pt = 0; pt < targets.length; pt++) {
 	console.log(`c3.${pt}`)
-	// targets[pt].innerHTML = htmlText
+	targets[pt].innerHTML = htmlText
 }
 console.log("c4")
