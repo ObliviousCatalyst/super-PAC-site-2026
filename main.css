@@ -122,6 +122,8 @@ a {
 .nav-links {
 	display: flex;
 	flex-direction: column;
+	background-color: black;
+	background-image: none;
 }
 
 .svg {
