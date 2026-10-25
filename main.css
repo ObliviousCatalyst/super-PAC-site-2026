@@ -98,6 +98,10 @@ a {
 	filter: var(--std-filter);
 }
 
+.trans-img {
+	width: 100%;
+}
+
 .kv-grid {
 	display: grid;
 	grid-template-columns: repeat(2, auto);
