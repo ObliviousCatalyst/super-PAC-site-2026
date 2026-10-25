@@ -126,6 +126,10 @@ a {
 	background-image: none;
 }
 
+.nav-links > p {
+	margin-left: 1vw;
+}
+
 .svg {
 	height: 100vh;
 }
